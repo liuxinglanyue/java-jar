@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="com.opensymphony.oscache.base.TestCompleteBase" tests="77" failures="0" errors="0" time="92.156">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."></property>
+    <property name="ivy.configurations" value="*"></property>
+    <property name="dist" value="C:\Programme\eclipse\workspace\oscache\dist"></property>
+    <property name="lib" value="C:\Programme\eclipse\workspace\oscache\lib"></property>
+    <property name="os.name" value="Windows XP"></property>
+    <property name="sun.boot.class.path" value="C:\Programme\Java\j2sdk1.4.2_06\jre\lib\rt.jar;C:\Programme\Java\j2sdk1.4.2_06\jre\lib\i18n.jar;C:\Programme\Java\j2sdk1.4.2_06\jre\lib\sunrsasign.jar;C:\Programme\Java\j2sdk1.4.2_06\jre\lib\jsse.jar;C:\Programme\Java\j2sdk1.4.2_06\jre\lib\jce.jar;C:\Programme\Java\j2sdk1.4.2_06\jre\lib\charsets.jar;C:\Programme\Java\j2sdk1.4.2_06\jre\classes"></property>
+    <property name="TODAY" value="July 7 2007"></property>
+    <property name="ivy.module" value="oscache"></property>
+    <property name="sun.java2d.fontpath" value=""></property>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="ant.home" value="C:\Programme\Java\apache-ant-1.6.5"></property>
+    <property name="java.runtime.version" value="1.4.2_06-b03"></property>
+    <property name="ivy.lib.dir" value="C:\Programme\eclipse\workspace\oscache/lib"></property>
+    <property name="test.compile.version" value="1.4"></property>
+    <property name="user.name" value="Lars Torunski"></property>
+    <property name="ivy.revision" value="2.4.1"></property>
+    <property name="debug" value="true"></property>
+    <property name="dist.docs" value="C:\Programme\eclipse\workspace\oscache\dist/docs"></property>
+    <property name="src.java" value="C:\Programme\eclipse\workspace\oscache\src/java"></property>
+    <property name="user.language" value="de"></property>
+    <property name="build" value="C:\Programme\eclipse\workspace\oscache\build"></property>
+    <property name="sun.boot.library.path" value="C:\Programme\Java\j2sdk1.4.2_06\jre\bin"></property>
+    <property name="ivy.deliver.ivy.pattern" value="C:\Programme\eclipse\workspace\oscache/distrib/[type]s/[artifact]-[revision].[ext]"></property>
+    <property name="ant.project.name" value="oscache"></property>
+    <property name="DSTAMP" value="20070707"></property>
+    <property name="java.version" value="1.4.2_06"></property>
+    <property name="version" value="2.4.1"></property>
+    <property name="jar.excludes" value="test/**, docs/**, *.war, **/*.html"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="ivy.resolved.configurations" value="build, default, jgroups"></property>
+    <property name="ivy.organisation" value="opensymphony"></property>
+    <property name="ivy.resolve.default.type.filter" value="*"></property>
+    <property name="sun.arch.data.model" value="32"></property>
+    <property name="ivy.retrieve.pattern" value="C:\Programme\eclipse\workspace\oscache/lib/[artifact]-[revision].[ext]"></property>
+    <property name="java.endorsed.dirs" value="C:\Programme\Java\j2sdk1.4.2_06\jre\lib\endorsed"></property>
+    <property name="sun.cpu.isalist" value="pentium i486 i386"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="cvs.tag" value="v2_4_1"></property>
+    <property name="file.separator" value="\"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="lib.core" value="C:\Programme\eclipse\workspace\oscache\lib/core"></property>
+    <property name="clover.initstring" value="C:\Programme\eclipse\workspace\oscache\build\clover\coverageBase.db"></property>
+    <property name="java.class.version" value="48.0"></property>
+    <property name="src" value="C:\Programme\eclipse\workspace\oscache\src"></property>
+    <property name="user.country" value="DE"></property>
+    <property name="java.home" value="C:\Programme\Java\j2sdk1.4.2_06\jre"></property>
+    <property name="status" value="integration"></property>
+    <property name="java.vm.info" value="mixed mode"></property>
+    <property name="------common-properties-below------" value="Common properties below:"></property>
+    <property name="ivy.build.artifacts.dir" value="C:\Programme\eclipse\workspace\oscache/build/artifacts"></property>
+    <property name="ant.file" value="C:\Programme\eclipse\workspace\oscache\build.xml"></property>
+    <property name="os.version" value="5.1"></property>
+    <property name="build.java" value="C:\Programme\eclipse\workspace\oscache\build/java"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="ivy.available" value="true"></property>
+    <property name="java.vm.version" value="1.4.2_06-b03"></property>
+    <property name="docs" value="C:\Programme\eclipse\workspace\oscache\docs"></property>
+    <property name="java.util.prefs.PreferencesFactory" value="java.util.prefs.WindowsPreferencesFactory"></property>
+    <property name="user.variant" value=""></property>
+    <property name="ant.library.dir" value="C:\Programme\Java\apache-ant-1.6.5\lib"></property>
+    <property name="build.clover" value="C:\Programme\eclipse\workspace\oscache\build/clover"></property>
+    <property name="build.java-test" value="C:\Programme\eclipse\workspace\oscache\build/java-test"></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="ivy.status" value="integration"></property>
+    <property name="src.webapp" value="C:\Programme\eclipse\workspace\oscache\src/webapp"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="testcase" value="*"></property>
+    <property name="compile.version" value="1.4"></property>
+    <property name="user.home" value="C:\Dokumente und Einstellungen\Lars Torunski"></property>
+    <property name="lib.build" value="C:\Programme\eclipse\workspace\oscache\lib/build"></property>
+    <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]"></property>
+    <property name="test" value="C:\Programme\eclipse\workspace\oscache\src/test"></property>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="tmp.dir" value="tmp"></property>
+    <property name="jar.manifest" value="C:\Programme\eclipse\workspace\opensymphony\common/EMPTY.MF"></property>
+    <property name="java.vendor.url" value="http://java.sun.com/"></property>
+    <property name="name" value="oscache"></property>
+    <property name="java.library.path" value="C:\Programme\Java\j2sdk1.4.2_06\jre\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\Programme\Java\j2sdk1.4.2_06\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;C:\Programme\Borland\BDS\1.0\Bin;C:\PROGRA~1\Borland\Delphi5\Projects\Bpl;C:\PROGRA~1\Borland\vbroker\jre\Bin;C:\PROGRA~1\Borland\vbroker\Bin;C:\PROGRA~1\Borland\Delphi5\Bin;C:\Programme\NetworkSimplicity\ssh;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programme\BorlandEnterpriseServer\bin;C:\Programme\NMapWin\bin;C:\PROGRA~1\GNU\WINCVS~1.3\CVSNT;C:\WINDOWS\DPDrv;C:\Programme\Support Tools\;C:\Programme\QuickTime\QTSystem\;C:\Programme\Java\j2sdk1.4.2_06\bin;C:\Programme\Java\j2sdk1.4.2_06\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;C:\Programme\Borland\BDS\1.0\Bin;C:\PROGRA~1\Borland\Delphi5\Projects\Bpl;C:\PROGRA~1\Borland\vbroker\jre\Bin;C:\PROGRA~1\Borland\vbroker\Bin;C:\PROGRA~1\Borland\Delphi5\Bin;C:\Programme\NetworkSimplicity\ssh;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programme\BorlandEnterpriseServer\bin;C:\Programme\NMapWin\bin;C:\PROGRA~1\GNU\WINCVS~1.3\CVSNT;C:\WINDOWS\DPDrv;C:\Programme\Support Tools\;C:\Programme\QuickTime\QTSystem\;C:\Programme\Java\apache-ant-1.6.1\bin;C:\Programme\GNU\WinCvs 1.3\CVSNT;C:\Programme\Nmap"></property>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+    <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+    <property name="java.class.path" value="C:\Programme\eclipse\workspace\oscache\build\test;C:\Programme\eclipse\workspace\oscache\lib\GroboUtils-5-core.jar;C:\Programme\eclipse\workspace\oscache\lib\backport-util-concurrent.jar;C:\Programme\eclipse\workspace\oscache\lib\clover.jar;C:\Programme\eclipse\workspace\oscache\lib\commons-logging.jar;C:\Programme\eclipse\workspace\oscache\lib\groboutils-core.jar;C:\Programme\eclipse\workspace\oscache\lib\hibernate3.jar;C:\Programme\eclipse\workspace\oscache\lib\httpunit.jar;C:\Programme\eclipse\workspace\oscache\lib\jgroups-all.jar;C:\Programme\eclipse\workspace\oscache\lib\jms.jar;C:\Programme\eclipse\workspace\oscache\lib\junit.jar;C:\Programme\eclipse\workspace\oscache\lib\junitperf-1.9.1.jar;C:\Programme\eclipse\workspace\oscache\lib\junitperf.jar;C:\Programme\eclipse\workspace\oscache\lib\servletapi.jar;C:\Programme\Altova\xmlspy\XMLSpyInterface.jar;C:\Programme\eclipse\workspace\oscache;C:\Programme\Java\apache-ant-1.6.5\lib\junit-3.8.1.jar;C:\Programme\Java\apache-ant-1.6.5\lib\ant-launcher.jar;C:\Programme\Java\apache-ant-1.6.5\lib\ant.jar;C:\Programme\Java\apache-ant-1.6.5\lib\ant-junit.jar"></property>
+    <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+    <property name="j2ee.version" value="1.4"></property>
+    <property name="TSTAMP" value="0901"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="java.vm.specification.version" value="1.0"></property>
+    <property name="sun.os.patch.level" value="Service Pack 2"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="src.test" value="C:\Programme\eclipse\workspace\oscache\src/test/java"></property>
+    <property name="ivy.nb.targets.copied" value="0"></property>
+    <property name="java.io.tmpdir" value="C:\DOKUME~1\LARSTO~1\LOKALE~1\Temp\"></property>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+    <property name="ivy.deps.changed" value="false"></property>
+    <property name="ant.file.common" value="C:\Programme\eclipse\workspace\opensymphony\common\osbuild.xml"></property>
+    <property name="ivy.default.always.check.exact.revision" value="true"></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="os.arch" value="x86"></property>
+    <property name="ivy.project.dir" value="C:\Programme\eclipse\workspace\oscache"></property>
+    <property name="java.ext.dirs" value="C:\Programme\Java\j2sdk1.4.2_06\jre\lib\ext"></property>
+    <property name="common.dir" value="C:\Programme\eclipse\workspace\opensymphony\common"></property>
+    <property name="junit.available" value="true"></property>
+    <property name="ant.file.oscache" value="C:\Programme\eclipse\workspace\oscache\build.xml"></property>
+    <property name="user.dir" value="C:\Programme\eclipse\workspace\oscache"></property>
+    <property name="ivy.publish.src.artifacts.pattern" value="C:\Programme\eclipse\workspace\oscache/distrib/[type]s/[artifact]-[revision].[ext]"></property>
+    <property name="fullname" value="OSCache"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="common.build" value="../opensymphony/common/osbuild.xml"></property>
+    <property name="ivy.distrib.dir" value="C:\Programme\eclipse\workspace\oscache/distrib"></property>
+    <property name="basedir" value="C:\Programme\eclipse\workspace\oscache"></property>
+    <property name="ant.java.version" value="1.4"></property>
+    <property name="test.cache.path" value="/tmp/cachetagscache"></property>
+    <property name="docs.packages" value="com.opensymphony.*"></property>
+    <property name="file.encoding" value="Cp1252"></property>
+    <property name="ivy.conf.file" value="ivyconf.xml"></property>
+    <property name="ivy.targets.copied" value="false"></property>
+    <property name="ivy.buildlist.ivyfilepath" value="ivy.xml"></property>
+    <property name="ivy.resolver.default.check.modified" value="false"></property>
+    <property name="clover.available" value="true"></property>
+    <property name="build.test" value="C:\Programme\eclipse\workspace\oscache\build/test"></property>
+    <property name="java.specification.version" value="1.4"></property>
+    <property name="ivy.dep.file" value="ivy.xml"></property>
+    <property name="lib.optional" value="${lib}/plugins"></property>
+    <property name="ivy.checksums" value="sha1,md5"></property>
+  </properties>
+  <testcase name="testEvaluations" classname="com.opensymphony.oscache.util.TestFastCronParser" time="0.125"></testcase>
+  <testcase name="testInvalidExpressionParsing" classname="com.opensymphony.oscache.util.TestFastCronParser" time="0.032"></testcase>
+  <testcase name="testPerformance" classname="com.opensymphony.oscache.util.TestFastCronParser" time="68.937"></testcase>
+  <testcase name="testValidExpressionParsing" classname="com.opensymphony.oscache.util.TestFastCronParser" time="0.0"></testcase>
+  <testcase name="testFlush" classname="com.opensymphony.oscache.base.TestCacheEntry" time="0.0"></testcase>
+  <testcase name="testGetCreated" classname="com.opensymphony.oscache.base.TestCacheEntry" time="0.0"></testcase>
+  <testcase name="testGetKey" classname="com.opensymphony.oscache.base.TestCacheEntry" time="0.0"></testcase>
+  <testcase name="testGetLastUpdate" classname="com.opensymphony.oscache.base.TestCacheEntry" time="0.0"></testcase>
+  <testcase name="testNeedsRefresh" classname="com.opensymphony.oscache.base.TestCacheEntry" time="0.0"></testcase>
+  <testcase name="testSetGetContent" classname="com.opensymphony.oscache.base.TestCacheEntry" time="0.0"></testcase>
+  <testcase name="testFlushPattern" classname="com.opensymphony.oscache.base.TestCache" time="0.094"></testcase>
+  <testcase name="testBug174CacheOverflow" classname="com.opensymphony.oscache.base.TestCache" time="0.078"></testcase>
+  <testcase name="testBug174CacheOverflowAndUpdate" classname="com.opensymphony.oscache.base.TestCache" time="0.156"></testcase>
+  <testcase name="testBug174CacheMissesNonBlocking" classname="com.opensymphony.oscache.base.TestCache" time="0.063"></testcase>
+  <testcase name="testBug174CacheMissesBlocking" classname="com.opensymphony.oscache.base.TestCache" time="0.015"></testcase>
+  <testcase name="testPutGetFromCache" classname="com.opensymphony.oscache.base.TestCache" time="0.016"></testcase>
+  <testcase name="testPutGetFromCacheWithPolicy" classname="com.opensymphony.oscache.base.TestCache" time="0.0"></testcase>
+  <testcase name="testNewEntry" classname="com.opensymphony.oscache.base.TestConcurrency" time="0.578"></testcase>
+  <testcase name="testNewEntryCancel" classname="com.opensymphony.oscache.base.TestConcurrency" time="1.0"></testcase>
+  <testcase name="testPut" classname="com.opensymphony.oscache.base.TestConcurrency" time="0.109"></testcase>
+  <testcase name="testStaleEntry" classname="com.opensymphony.oscache.base.TestConcurrency" time="0.407"></testcase>
+  <testcase name="testStaleEntryBlocking" classname="com.opensymphony.oscache.base.TestConcurrency" time="0.203"></testcase>
+  <testcase name="testConcurrentStaleGets" classname="com.opensymphony.oscache.base.TestConcurrency" time="9.765"></testcase>
+  <testcase name="testNewEntry" classname="com.opensymphony.oscache.base.TestConcurrency2" time="0.5"></testcase>
+  <testcase name="testNewEntryCancel" classname="com.opensymphony.oscache.base.TestConcurrency2" time="1.0"></testcase>
+  <testcase name="testPut" classname="com.opensymphony.oscache.base.TestConcurrency2" time="0.11"></testcase>
+  <testcase name="testStaleEntry" classname="com.opensymphony.oscache.base.TestConcurrency2" time="0.406"></testcase>
+  <testcase name="testStaleEntryBlocking" classname="com.opensymphony.oscache.base.TestConcurrency2" time="0.031"></testcase>
+  <testcase name="testConcurrentStaleGets" classname="com.opensymphony.oscache.base.TestConcurrency2" time="8.407"></testcase>
+  <testcase name="testRemoveItem" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testPut" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testClear" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testContainsKey" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testGet" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testGetSetMaxEntries" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testIterator" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testPutOverflow" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.015"></testcase>
+  <testcase name="testBugCache255" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.016"></testcase>
+  <testcase name="testRemove" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testGetSetMemoryCache" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testSetPersistenceListener" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testGroups" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testMisc" classname="com.opensymphony.oscache.base.algorithm.TestFIFOCache" time="0.0"></testcase>
+  <testcase name="testRemoveItem" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testPut" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testClear" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testContainsKey" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testGet" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testGetSetMaxEntries" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testIterator" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testPutOverflow" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.015"></testcase>
+  <testcase name="testBugCache255" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testRemove" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testGetSetMemoryCache" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testSetPersistenceListener" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testGroups" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testMisc" classname="com.opensymphony.oscache.base.algorithm.TestLRUCache" time="0.0"></testcase>
+  <testcase name="testRemoveItem" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testGetSetMaxEntries" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testGroups" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testPut" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testClear" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testContainsKey" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testGet" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testIterator" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testPutOverflow" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.016"></testcase>
+  <testcase name="testBugCache255" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testRemove" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testGetSetMemoryCache" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testSetPersistenceListener" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testMisc" classname="com.opensymphony.oscache.base.algorithm.TestUnlimitedCache" time="0.0"></testcase>
+  <testcase name="testCacheEntryEvent" classname="com.opensymphony.oscache.base.events.TestCacheEntryEvent" time="0.0"></testcase>
+  <testcase name="testCacheMapAccessEvent" classname="com.opensymphony.oscache.base.events.TestCacheMapAccessEvent" time="0.0"></testcase>
+  <testcase name="testScopeEvent" classname="com.opensymphony.oscache.base.events.TestScopeEvent" time="0.0"></testcase>
+  <testcase name="testCacheEntryEvent" classname="com.opensymphony.oscache.base.events.TestCachewideEvent" time="0.016"></testcase>
+  <testcase name="testCacheEntryEvent" classname="com.opensymphony.oscache.base.events.TestCachePatternEvent" time="0.0"></testcase>
+  <testcase name="testCacheEntryEvent" classname="com.opensymphony.oscache.base.events.TestCacheGroupEvent" time="0.015"></testcase>
+  <system-out><![CDATA[Best case with parsing took 16031ms for 1000000 iterations. (0.016031ms per call)
+Worst case with parsing took 31610ms for 1000000 iterations. (0.03161ms per call)
+Best case without parsing took 8797ms for 1000000 iterations. (0.008797ms per call)
+Worst case without parsing took 12187ms for 1000000 iterations. (0.012187ms per call)
+864 490 943 643 153 438 ERROR [main] (TestConcurrency.java:364) - Thread #0 did not complete within [5] s 
+ WARN [main] (UnlimitedCache.java:40) - Cache max entries can't be set in com.opensymphony.oscache.base.algorithm.UnlimitedCache, ignoring value 2147483645.
+ WARN [main] (UnlimitedCache.java:40) - Cache max entries can't be set in com.opensymphony.oscache.base.algorithm.UnlimitedCache, ignoring value 3.
+]]></system-out>
+  <system-err><![CDATA[junit.framework.AssertionFailedError: Thread should have blocked until a new cache entry was ready
+	at junit.framework.Assert.fail(Assert.java:47)
+	at com.opensymphony.oscache.base.TestConcurrency$GetEntry.run(TestConcurrency.java:406)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+]]></system-err>
+</testsuite>

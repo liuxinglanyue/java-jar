@@ -1,0 +1,355 @@
+<html xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results: com.opensymphony.oscache.plugins.diskpersistence.TestCompleteDiskPersistence</title>
+<link title="Style" type="text/css" rel="stylesheet" href="../../../../../stylesheet.css">
+<script language="JavaScript" type="text/javascript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['com.opensymphony.oscache.plugins.diskpersistence.TestCompleteDiskPersistence'] = new Array();
+    
+        cur['ant.file'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build.xml';
+    
+        cur['ant.file.common'] = 'C:\\Programme\\eclipse\\workspace\\opensymphony\\common\\osbuild.xml';
+    
+        cur['ant.file.oscache'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build.xml';
+    
+        cur['ant.home'] = 'C:\\Programme\\Java\\apache-ant-1.6.5';
+    
+        cur['ant.java.version'] = '1.4';
+    
+        cur['ant.library.dir'] = 'C:\\Programme\\Java\\apache-ant-1.6.5\\lib';
+    
+        cur['ant.project.name'] = 'oscache';
+    
+        cur['ant.version'] = 'Apache Ant version 1.6.5 compiled on June 2 2005';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['basedir'] = 'C:\\Programme\\eclipse\\workspace\\oscache';
+    
+        cur['build'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build';
+    
+        cur['build.clover'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build/clover';
+    
+        cur['build.java'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build/java';
+    
+        cur['build.java-test'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build/java-test';
+    
+        cur['build.test'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build/test';
+    
+        cur['clover.available'] = 'true';
+    
+        cur['clover.initstring'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build\\clover\\coverageBase.db';
+    
+        cur['common.build'] = '../opensymphony/common/osbuild.xml';
+    
+        cur['common.dir'] = 'C:\\Programme\\eclipse\\workspace\\opensymphony\\common';
+    
+        cur['------common-properties-below------'] = 'Common properties below:';
+    
+        cur['compile.version'] = '1.4';
+    
+        cur['cvs.tag'] = 'v2_4_1';
+    
+        cur['debug'] = 'true';
+    
+        cur['dist'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\dist';
+    
+        cur['dist.docs'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\dist/docs';
+    
+        cur['docs'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\docs';
+    
+        cur['docs.packages'] = 'com.opensymphony.*';
+    
+        cur['DSTAMP'] = '20070707';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['fullname'] = 'OSCache';
+    
+        cur['ivy.available'] = 'true';
+    
+        cur['ivy.build.artifacts.dir'] = 'C:\\Programme\\eclipse\\workspace\\oscache/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.conf.file'] = 'ivyconf.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'true';
+    
+        cur['ivy.deliver.ivy.pattern'] = 'C:\\Programme\\eclipse\\workspace\\oscache/distrib/[type]s/[artifact]-[revision].[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = 'C:\\Programme\\eclipse\\workspace\\oscache/distrib';
+    
+        cur['ivy.lib.dir'] = 'C:\\Programme\\eclipse\\workspace\\oscache/lib';
+    
+        cur['ivy.module'] = 'oscache';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'opensymphony';
+    
+        cur['ivy.project.dir'] = 'C:\\Programme\\eclipse\\workspace\\oscache';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = 'C:\\Programme\\eclipse\\workspace\\oscache/distrib/[type]s/[artifact]-[revision].[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'build, default, jgroups';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = 'C:\\Programme\\eclipse\\workspace\\oscache/lib/[artifact]-[revision].[ext]';
+    
+        cur['ivy.revision'] = '2.4.1';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['j2ee.version'] = '1.4';
+    
+        cur['jar.excludes'] = 'test/**, docs/**, *.war, **/*.html';
+    
+        cur['jar.manifest'] = 'C:\\Programme\\eclipse\\workspace\\opensymphony\\common/EMPTY.MF';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\build\\test;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\GroboUtils-5-core.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\backport-util-concurrent.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\clover.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\commons-logging.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\groboutils-core.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\hibernate3.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\httpunit.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\jgroups-all.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\jms.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\junit.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\junitperf-1.9.1.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\junitperf.jar;C:\\Programme\\eclipse\\workspace\\oscache\\lib\\servletapi.jar;C:\\Programme\\Altova\\xmlspy\\XMLSpyInterface.jar;C:\\Programme\\eclipse\\workspace\\oscache;C:\\Programme\\Java\\apache-ant-1.6.5\\lib\\junit-3.8.1.jar;C:\\Programme\\Java\\apache-ant-1.6.5\\lib\\ant-launcher.jar;C:\\Programme\\Java\\apache-ant-1.6.5\\lib\\ant.jar;C:\\Programme\\Java\\apache-ant-1.6.5\\lib\\ant-junit.jar';
+    
+        cur['java.class.version'] = '48.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Programme\\Java\\j2sdk1.4.2_06\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\DOKUME~1\\LARSTO~1\\LOKALE~1\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\bin;.;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\Programme\\Java\\j2sdk1.4.2_06\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\Programme\\Borland\\BDS\\1.0\\Bin;C:\\PROGRA~1\\Borland\\Delphi5\\Projects\\Bpl;C:\\PROGRA~1\\Borland\\vbroker\\jre\\Bin;C:\\PROGRA~1\\Borland\\vbroker\\Bin;C:\\PROGRA~1\\Borland\\Delphi5\\Bin;C:\\Programme\\NetworkSimplicity\\ssh;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Programme\\BorlandEnterpriseServer\\bin;C:\\Programme\\NMapWin\\bin;C:\\PROGRA~1\\GNU\\WINCVS~1.3\\CVSNT;C:\\WINDOWS\\DPDrv;C:\\Programme\\Support Tools\\;C:\\Programme\\QuickTime\\QTSystem\\;C:\\Programme\\Java\\j2sdk1.4.2_06\\bin;C:\\Programme\\Java\\j2sdk1.4.2_06\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\Programme\\Borland\\BDS\\1.0\\Bin;C:\\PROGRA~1\\Borland\\Delphi5\\Projects\\Bpl;C:\\PROGRA~1\\Borland\\vbroker\\jre\\Bin;C:\\PROGRA~1\\Borland\\vbroker\\Bin;C:\\PROGRA~1\\Borland\\Delphi5\\Bin;C:\\Programme\\NetworkSimplicity\\ssh;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Programme\\BorlandEnterpriseServer\\bin;C:\\Programme\\NMapWin\\bin;C:\\PROGRA~1\\GNU\\WINCVS~1.3\\CVSNT;C:\\WINDOWS\\DPDrv;C:\\Programme\\Support Tools\\;C:\\Programme\\QuickTime\\QTSystem\\;C:\\Programme\\Java\\apache-ant-1.6.1\\bin;C:\\Programme\\GNU\\WinCvs 1.3\\CVSNT;C:\\Programme\\Nmap';
+    
+        cur['java.runtime.name'] = 'Java(TM) 2 Runtime Environment, Standard Edition';
+    
+        cur['java.runtime.version'] = '1.4.2_06-b03';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.4';
+    
+        cur['java.util.prefs.PreferencesFactory'] = 'java.util.prefs.WindowsPreferencesFactory';
+    
+        cur['java.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vendor.url'] = 'http://java.sun.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://java.sun.com/cgi-bin/bugreport.cgi';
+    
+        cur['java.version'] = '1.4.2_06';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) Client VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.version'] = '1.4.2_06-b03';
+    
+        cur['junit.available'] = 'true';
+    
+        cur['lib'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\lib';
+    
+        cur['lib.build'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\lib/build';
+    
+        cur['lib.core'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\lib/core';
+    
+        cur['lib.optional'] = '${lib}/plugins';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['name'] = 'oscache';
+    
+        cur['os.arch'] = 'x86';
+    
+        cur['os.name'] = 'Windows XP';
+    
+        cur['os.version'] = '5.1';
+    
+        cur['path.separator'] = ';';
+    
+        cur['src'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\src';
+    
+        cur['src.java'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\src/java';
+    
+        cur['src.test'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\src/test/java';
+    
+        cur['src.webapp'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\src/webapp';
+    
+        cur['status'] = 'integration';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = 'C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\rt.jar;C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\i18n.jar;C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\sunrsasign.jar;C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\jsse.jar;C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\jce.jar;C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\lib\\charsets.jar;C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Programme\\Java\\j2sdk1.4.2_06\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'pentium i486 i386';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java2d.fontpath'] = '';
+    
+        cur['sun.os.patch.level'] = 'Service Pack 2';
+    
+        cur['test'] = 'C:\\Programme\\eclipse\\workspace\\oscache\\src/test';
+    
+        cur['test.cache.path'] = '/tmp/cachetagscache';
+    
+        cur['test.compile.version'] = '1.4';
+    
+        cur['testcase'] = '*';
+    
+        cur['tmp.dir'] = 'tmp';
+    
+        cur['TODAY'] = 'July 7 2007';
+    
+        cur['TSTAMP'] = '0901';
+    
+        cur['user.country'] = 'DE';
+    
+        cur['user.dir'] = 'C:\\Programme\\eclipse\\workspace\\oscache';
+    
+        cur['user.home'] = 'C:\\Dokumente und Einstellungen\\Lars Torunski';
+    
+        cur['user.language'] = 'de';
+    
+        cur['user.name'] = 'Lars Torunski';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    
+        cur['version'] = '2.4.1';
+    </script><script language="JavaScript" type="text/javascript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://jakarta.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class com.opensymphony.oscache.plugins.diskpersistence.TestCompleteDiskPersistence</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap="nowrap">Time(s)</th>
+</tr>
+<tr valign="top" class="Pass">
+<td><a href="5_TestCompleteDiskPersistence.html">TestCompleteDiskPersistence</a></td><td>12</td><td>0</td><td>0</td><td>0.453</td>
+</tr>
+</table>
+<h2>Tests</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap="nowrap">Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testClear</td><td>Success</td><td></td><td>0.265</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testIsStored</td><td>Success</td><td></td><td>0.016</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testRemove</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testCachePersistenceException</td><td>Success</td><td></td><td>0.016</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testStoreRetrieve</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testStoreRetrieveGroups</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testClear</td><td>Success</td><td></td><td>0.032</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testIsStored</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testRemove</td><td>Success</td><td></td><td>0.016</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testStoreRetrieve</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testStoreRetrieveGroups</td><td>Success</td><td></td><td>0.032</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td>testByteArrayToHexString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.opensymphony.oscache.plugins.diskpersistence.TestCompleteDiskPersistence');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>

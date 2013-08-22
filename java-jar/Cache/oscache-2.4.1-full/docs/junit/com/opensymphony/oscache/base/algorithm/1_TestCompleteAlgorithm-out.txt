@@ -1,0 +1,2 @@
+ WARN [main] (UnlimitedCache.java:40) - Cache max entries can't be set in com.opensymphony.oscache.base.algorithm.UnlimitedCache, ignoring value 2147483645.
+ WARN [main] (UnlimitedCache.java:40) - Cache max entries can't be set in com.opensymphony.oscache.base.algorithm.UnlimitedCache, ignoring value 3.

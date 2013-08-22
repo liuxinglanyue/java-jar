@@ -1,0 +1,13 @@
+com.opensymphony.oscache.base
+com.opensymphony.oscache.base.algorithm
+com.opensymphony.oscache.base.events
+com.opensymphony.oscache.base.persistence
+com.opensymphony.oscache.extra
+com.opensymphony.oscache.general
+com.opensymphony.oscache.hibernate
+com.opensymphony.oscache.plugins.clustersupport
+com.opensymphony.oscache.plugins.diskpersistence
+com.opensymphony.oscache.util
+com.opensymphony.oscache.web
+com.opensymphony.oscache.web.filter
+com.opensymphony.oscache.web.tag

@@ -1,0 +1,25 @@
+junit.framework.AssertionFailedError: Thread should have blocked until a new cache entry was ready
+	at junit.framework.Assert.fail(Assert.java:47)
+	at com.opensymphony.oscache.base.TestConcurrency$GetEntry.run(TestConcurrency.java:406)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)
+java.lang.IllegalStateException: Owning runner never defined.  The runnables should only be started through the MultiThreadedTestRunner instance.
+	at net.sourceforge.groboutils.junit.v1.TestRunnable.run(TestRunnable.java:146)
+	at java.lang.Thread.run(Thread.java:534)

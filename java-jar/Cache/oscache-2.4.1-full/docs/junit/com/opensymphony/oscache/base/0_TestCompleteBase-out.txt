@@ -1,0 +1,7 @@
+Best case with parsing took 16031ms for 1000000 iterations. (0.016031ms per call)
+Worst case with parsing took 31610ms for 1000000 iterations. (0.03161ms per call)
+Best case without parsing took 8797ms for 1000000 iterations. (0.008797ms per call)
+Worst case without parsing took 12187ms for 1000000 iterations. (0.012187ms per call)
+864 490 943 643 153 438 ERROR [main] (TestConcurrency.java:364) - Thread #0 did not complete within [5] s 
+ WARN [main] (UnlimitedCache.java:40) - Cache max entries can't be set in com.opensymphony.oscache.base.algorithm.UnlimitedCache, ignoring value 2147483645.
+ WARN [main] (UnlimitedCache.java:40) - Cache max entries can't be set in com.opensymphony.oscache.base.algorithm.UnlimitedCache, ignoring value 3.
